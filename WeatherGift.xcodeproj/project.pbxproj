@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23141D942429271A000BF8F9 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23141D932429271A000BF8F9 /* APIkeys.swift */; };
 		23EB1D6E241804DC00D2ADB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB1D6D241804DC00D2ADB7 /* AppDelegate.swift */; };
 		23EB1D70241804DC00D2ADB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB1D6F241804DC00D2ADB7 /* SceneDelegate.swift */; };
 		23EB1D72241804DC00D2ADB7 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB1D71241804DC00D2ADB7 /* LocationListViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23141D932429271A000BF8F9 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		23EB1D6A241804DC00D2ADB7 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EB1D6D241804DC00D2ADB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23EB1D6F241804DC00D2ADB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				23EB1D76241804DE00D2ADB7 /* Assets.xcassets */,
 				23EB1D78241804DE00D2ADB7 /* LaunchScreen.storyboard */,
 				23EB1D7B241804DE00D2ADB7 /* Info.plist */,
+				23141D932429271A000BF8F9 /* APIkeys.swift */,
 			);
 			path = WeatherGift;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				6CB4AB1E2DBB29714540D92D /* Pods-WeatherGift.debug.xcconfig */,
 				9B5520C392A324EDFBE547E1 /* Pods-WeatherGift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,6 +214,7 @@
 			files = (
 				23EB1D72241804DC00D2ADB7 /* LocationListViewController.swift in Sources */,
 				23EB1D822418050700D2ADB7 /* WeatherLocation.swift in Sources */,
+				23141D942429271A000BF8F9 /* APIkeys.swift in Sources */,
 				23EB1D6E241804DC00D2ADB7 /* AppDelegate.swift in Sources */,
 				23EB1D70241804DC00D2ADB7 /* SceneDelegate.swift in Sources */,
 			);
