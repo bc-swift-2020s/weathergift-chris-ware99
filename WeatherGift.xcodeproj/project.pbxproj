@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231FA1F324327E250096E5CA /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231FA1F224327E250096E5CA /* DailyTableViewCell.swift */; };
+		231FA1F5243288CB0096E5CA /* HourlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231FA1F4243288CB0096E5CA /* HourlyCollectionViewCell.swift */; };
 		2372E6C224292A6200B34185 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372E6C124292A6200B34185 /* APIkeys.swift */; };
 		2372E6C424292FBF00B34185 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372E6C324292FBF00B34185 /* LocationDetailViewController.swift */; };
 		2372E6C62429400D00B34185 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372E6C52429400D00B34185 /* PageViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		231FA1F224327E250096E5CA /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
+		231FA1F4243288CB0096E5CA /* HourlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyCollectionViewCell.swift; sourceTree = "<group>"; };
 		2372E6C124292A6200B34185 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		2372E6C324292FBF00B34185 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 		2372E6C52429400D00B34185 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				2372E6C52429400D00B34185 /* PageViewController.swift */,
 				2372E6C324292FBF00B34185 /* LocationDetailViewController.swift */,
 				23EB1D71241804DC00D2ADB7 /* LocationListViewController.swift */,
+				231FA1F224327E250096E5CA /* DailyTableViewCell.swift */,
+				231FA1F4243288CB0096E5CA /* HourlyCollectionViewCell.swift */,
 				23EB1D73241804DC00D2ADB7 /* Main.storyboard */,
 				23EB1D76241804DE00D2ADB7 /* Assets.xcassets */,
 				23EB1D78241804DE00D2ADB7 /* LaunchScreen.storyboard */,
@@ -221,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231FA1F324327E250096E5CA /* DailyTableViewCell.swift in Sources */,
 				23EB1D72241804DC00D2ADB7 /* LocationListViewController.swift in Sources */,
 				2372E6C82429504000B34185 /* WeatherDetail.swift in Sources */,
 				2372E6C62429400D00B34185 /* PageViewController.swift in Sources */,
@@ -229,6 +236,7 @@
 				23EB1D6E241804DC00D2ADB7 /* AppDelegate.swift in Sources */,
 				2372E6C424292FBF00B34185 /* LocationDetailViewController.swift in Sources */,
 				23EB1D70241804DC00D2ADB7 /* SceneDelegate.swift in Sources */,
+				231FA1F5243288CB0096E5CA /* HourlyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
