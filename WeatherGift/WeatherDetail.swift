@@ -9,14 +9,12 @@
 import Foundation
 
 private let dateFormatter: DateFormatter = {
-    print("I JUST CREATED A DATE FORMATTER in WeatherDetail.swift")
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "EEEE"
     return dateFormatter
 }()
 
 private let hourlyFormatter: DateFormatter = {
-    print("I JUST CREATED AN HOURLY DATE FORMATTER in WeatherDetail.swift")
     let hourlyFormatter = DateFormatter()
     hourlyFormatter.dateFormat = "ha"
     return hourlyFormatter
@@ -85,7 +83,6 @@ class WeatherDetail: WeatherLocation {
     func getData(completed: @escaping () -> () ) {
         let coordinates = "\(latitude),\(longitude)"
         let urlString = "\(APIurls.darkSkyURL)\(APIkeys.darkSkyKey)/\(coordinates)"
-        print("We are accessing \(urlString)")
         
         // Create a URL
         guard let url = URL(string: urlString) else {
@@ -121,7 +118,6 @@ class WeatherDetail: WeatherLocation {
                     let dailyLow = Int(response.daily.data[index].temperatureLow.rounded())
                     let dailyWeather = DailyWeather(dailyIcon: dailyIcon, dailyWeekday: dailyWeekday, dailySummary: dailySummary, dailyHigh: dailyHigh, dailyLow: dailyLow)
                     self.dailyWeatherData.append(dailyWeather)
-                    print("Day: \(dailyWeather.dailyWeekday) High: \(dailyWeather.dailyHigh) Low: \(dailyWeather.dailyLow)")
                 }
                 let lastHour = min(24,response.hourly.data.count)
                 for index in 0..<lastHour {
@@ -133,7 +129,6 @@ class WeatherDetail: WeatherLocation {
                     let temperature = Int(response.hourly.data[index].temperature.rounded())
                     let hourlyWeather = HourlyWeather(hour: hour, hourlyIcon: hourlyIcon, hourlyTemperature: temperature, hourlyPrecipProbability: precipProbability)
                     self.hourlyWeatherData.append(hourlyWeather)
-                    print("Hour: \(hourlyWeather.hour) Icon: \(hourlyWeather.hourlyIcon) Temperature: \(hourlyWeather.hourlyTemperature) PrecipProbability: \(hourlyWeather.hourlyPrecipProbability)")
                 }
             } catch {
                 print("JSON ERROR: \(error.localizedDescription)")

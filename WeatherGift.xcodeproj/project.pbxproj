@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231D2CED244DE6A500BD4031 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231D2CEC244DE6A500BD4031 /* UIViewController+alert.swift */; };
+		231D2CEF244DF5C200BD4031 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231D2CEE244DF5C200BD4031 /* AboutViewController.swift */; };
 		231FA1F324327E250096E5CA /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231FA1F224327E250096E5CA /* DailyTableViewCell.swift */; };
 		231FA1F5243288CB0096E5CA /* HourlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231FA1F4243288CB0096E5CA /* HourlyCollectionViewCell.swift */; };
 		2372E6C224292A6200B34185 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372E6C124292A6200B34185 /* APIkeys.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		231D2CEC244DE6A500BD4031 /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		231D2CEE244DF5C200BD4031 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		231FA1F224327E250096E5CA /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
 		231FA1F4243288CB0096E5CA /* HourlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyCollectionViewCell.swift; sourceTree = "<group>"; };
 		2372E6C124292A6200B34185 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
@@ -92,8 +96,10 @@
 				2372E6C52429400D00B34185 /* PageViewController.swift */,
 				2372E6C324292FBF00B34185 /* LocationDetailViewController.swift */,
 				23EB1D71241804DC00D2ADB7 /* LocationListViewController.swift */,
+				231D2CEE244DF5C200BD4031 /* AboutViewController.swift */,
 				231FA1F224327E250096E5CA /* DailyTableViewCell.swift */,
 				231FA1F4243288CB0096E5CA /* HourlyCollectionViewCell.swift */,
+				231D2CEC244DE6A500BD4031 /* UIViewController+alert.swift */,
 				23EB1D73241804DC00D2ADB7 /* Main.storyboard */,
 				23EB1D76241804DE00D2ADB7 /* Assets.xcassets */,
 				23EB1D78241804DE00D2ADB7 /* LaunchScreen.storyboard */,
@@ -233,7 +239,9 @@
 				2372E6C62429400D00B34185 /* PageViewController.swift in Sources */,
 				23EB1D822418050700D2ADB7 /* WeatherLocation.swift in Sources */,
 				2372E6C224292A6200B34185 /* APIkeys.swift in Sources */,
+				231D2CEF244DF5C200BD4031 /* AboutViewController.swift in Sources */,
 				23EB1D6E241804DC00D2ADB7 /* AppDelegate.swift in Sources */,
+				231D2CED244DE6A500BD4031 /* UIViewController+alert.swift in Sources */,
 				2372E6C424292FBF00B34185 /* LocationDetailViewController.swift in Sources */,
 				23EB1D70241804DC00D2ADB7 /* SceneDelegate.swift in Sources */,
 				231FA1F5243288CB0096E5CA /* HourlyCollectionViewCell.swift in Sources */,
